@@ -7,3 +7,4 @@ This repository contains a working example of public Shopify App using Codeignit
 1-Change API Key<br>
 2-Change Secret<br>
 3-Change base url <br>
+4-Change redirect_url <br>
