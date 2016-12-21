@@ -5,4 +5,5 @@ This repository contains a working example of public Shopify App using Codeignit
 -> Do the following Changes in <strong>config.php</strong>
 
 1-Change API Key<br>
-2-Change Secret 
+2-Change Secret<br>
+3-Change base url <br>
