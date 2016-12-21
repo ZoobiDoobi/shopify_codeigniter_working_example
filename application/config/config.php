@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://voodoostores.top/mangofunnels/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -513,6 +513,6 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 // ------------------------------------------------------------------------
-$config['shopify_api_key'] = '07d4e3b20aabaababecdf2506211ae68';
-$config['shopify_secret'] = '8c21e6f341f52178bc143d7ea8f6dc53';
-$config['redirect_url'] = 'https://voodoostores.top/mangofunnels/auth/authCallback';
+$config['shopify_api_key'] = '';
+$config['shopify_secret'] = '';
+$config['redirect_url'] = '/auth/authCallback'; //Add domain name before the slash, same as you have specified while creating the app in shopify partners dashboard
