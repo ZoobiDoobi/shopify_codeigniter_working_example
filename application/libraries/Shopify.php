@@ -146,7 +146,7 @@ class Shopify{
     {
 	    if ($verifyData)
 	    {
-		    foreach (self::$_KEYS as $k)
+		    foreach ($this->_KEYS as $k)
 		    {
 			    if ((!array_key_exists($k, $this->_API)) || (empty($this->_API[$k])))
 			    {
