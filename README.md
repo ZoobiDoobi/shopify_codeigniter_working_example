@@ -8,3 +8,6 @@ This repository contains a working example of public Shopify App using Codeignit
 2-Change Secret<br>
 3-Change base url <br>
 4-Change redirect_url <br>
+5-Go to Controller Auth -> find $shop, remove $this->input->get('shop'); for your store without **https://**<br>
+
+Example: `mystore.myshopify.com/`
